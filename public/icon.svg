@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#0F766E" />
+  <rect x="28" y="28" width="456" height="456" rx="92" stroke="#CCFBF1" stroke-opacity="0.22" stroke-width="6" />
+  <!-- Open Quran / Rehal emblem -->
+  <path
+    d="M256 172C222 148 168 140 116 148C104.954 149.7 96 159.17 96 170.35V332C96 344.2 106.7 353.6 118.8 351.8C168.4 344.4 220.4 352.6 256 376C291.6 352.6 343.6 344.4 393.2 351.8C405.3 353.6 416 344.2 416 332V170.35C416 159.17 407.046 149.7 396 148C344 140 290 148 256 172Z"
+    fill="#FFFFFF"
+  />
+  <path d="M256 172V376" stroke="#0F766E" stroke-width="10" stroke-linecap="round" />
+  <!-- Subtle page lines -->
+  <path d="M138 206C168 202 202 206 226 218" stroke="#0F766E" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" />
+  <path d="M138 248C168 244 202 248 226 260" stroke="#0F766E" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" />
+  <path d="M138 290C168 286 202 290 226 302" stroke="#0F766E" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" />
+  <path d="M374 206C344 202 310 206 286 218" stroke="#0F766E" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" />
+  <path d="M374 248C344 244 310 248 286 260" stroke="#0F766E" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" />
+  <path d="M374 290C344 286 310 290 286 302" stroke="#0F766E" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round" />
+  <!-- Rehal stand legs -->
+  <path d="M196 392L256 364L316 392" stroke="#FCD34D" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
