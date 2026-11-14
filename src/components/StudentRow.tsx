@@ -25,7 +25,7 @@ export const StudentRow: React.FC<StudentRowProps> = ({
   const identity = (
     <div className="min-w-0">
       <div className="flex items-center gap-2 min-w-0">
-        <p className="text-base md:text-lg font-bold text-[#0F172A] group-hover:text-[#0F766E] transition-colors truncate">
+        <p className="text-lg font-bold text-[#0F172A] group-hover:text-[#0F766E] transition-colors truncate">
           {name}
         </p>
         {badgeText && (

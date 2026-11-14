@@ -211,7 +211,7 @@ export const SettingsPage: React.FC = () => {
         open={logoutConfirmOpen}
         title={t.auth.logoutConfirmTitle}
         description={t.auth.logoutConfirmBody}
-        confirmLabel={t.auth.logout}
+        confirmLabel={isPreviewMode ? t.auth.exitPreview : t.auth.logout}
         destructive
         busy={loggingOut}
         onCancel={() => setLogoutConfirmOpen(false)}
