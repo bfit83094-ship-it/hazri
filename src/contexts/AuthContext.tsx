@@ -17,6 +17,10 @@ interface AuthContextValue {
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 
+// Always return OAuth users to the deployed app, even when the app is opened
+// from a local preview or an embedded development environment.
+const PRODUCTION_AUTH_REDIRECT_URL = 'https://hazri.bfit83094.workers.dev/attendance';
+
 function buildPreviewUser(): User {
   const profile = previewStore.getProfile();
   return {
@@ -85,7 +89,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/attendance`,
+        redirectTo: PRODUCTION_AUTH_REDIRECT_URL,
       },
     });
     if (error) throw error;
